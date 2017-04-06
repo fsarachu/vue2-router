@@ -3,8 +3,8 @@
         <div class="container">
 
             <div class="nav-left">
-                <a class="nav-item is-tab is-active">Home</a>
-                <a class="nav-item is-tab">User</a>
+                <router-link to="/" class="nav-item is-tab" activeClass="is-active" exact>Home</router-link>
+                <router-link to="/user" class="nav-item is-tab" activeClass="is-active" exact>User</router-link>
             </div>
 
         </div>
