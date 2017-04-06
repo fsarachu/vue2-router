@@ -6,6 +6,10 @@
 
                 <h1 class="title has-text-centered">Vue Router!</h1>
 
+                <hr>
+
+                <router-view></router-view>
+
             </div>
         </section>
 
