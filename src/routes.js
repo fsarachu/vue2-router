@@ -1,3 +1,4 @@
+import Header from './components/Header.vue';
 import Home from './components/Home.vue';
 import User from './components/user/User.vue';
 import UserStart from './components/user/UserStart.vue';
@@ -7,12 +8,18 @@ import UserEdit from './components/user/UserEdit.vue';
 export default [
     {
         path: '',
-        component: Home,
+        components: {
+            'default': Home,
+            'header-top': Header,
+        },
         name: 'home',
     },
     {
         path: '/user',
-        component: User,
+        components: {
+            'default': User,
+            'header-bottom': Header,
+        },
         children: [
             {
                 path: '',
