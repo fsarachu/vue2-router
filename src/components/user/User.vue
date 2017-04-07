@@ -1,11 +1,16 @@
 <template>
-    <section class="hero is-light is-fullheight">
-        <div class="hero-body">
+    <div>
+        <section class="section">
             <div class="container">
-                <h1 class="title">The User Component</h1>
+                <div class="level is-mobile">
+                    <div class="level-item has-text-centered">
+                        <p class="title">The User Component</p>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+        <router-view></router-view>
+    </div>
 </template>
 
 <script>
