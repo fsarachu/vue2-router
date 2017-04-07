@@ -11,7 +11,8 @@
                     </button>
                 </div>
                 <router-link to="/" class="nav-item is-tab" activeClass="is-active" exact>Home</router-link>
-                <router-link to="/user/1" class="nav-item is-tab" activeClass="is-active">User</router-link>
+                <router-link to="/user/1" class="nav-item is-tab" activeClass="is-active">User 1</router-link>
+                <router-link to="/user/2" class="nav-item is-tab" activeClass="is-active">User 2</router-link>
             </div>
 
         </div>

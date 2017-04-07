@@ -15,6 +15,11 @@
             return {
                 userId: this.$route.params.id
             };
+        },
+        watch: {
+            $route(to, from) {
+                this.userId = to.params.id;
+            }
         }
     }
 </script>
