@@ -1,9 +1,12 @@
 <template>
-    <section class="hero is-light is-fullheight">
-        <div class="hero-body">
-            <div class="container">
-                <h1 class="title">The UserStart Component</h1>
-            </div>
-        </div>
-    </section>
+    <div class="menu">
+        <p class="menu-label">
+            Users
+        </p>
+        <ul class="menu-list">
+            <li><a>User 1</a></li>
+            <li><a>User 2</a></li>
+            <li><a>User 3</a></li>
+        </ul>
+    </div>
 </template>
