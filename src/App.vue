@@ -24,11 +24,11 @@
     }
 
     .fade-enter-active {
-        transition: opacity .2s ease-in-out;
+        transition: opacity .15s ease-in-out;
     }
 
     .fade-leave-active {
         opacity: 0;
-        transition: opacity .2s ease-in-out;
+        transition: opacity .15s ease-in-out;
     }
 </style>
