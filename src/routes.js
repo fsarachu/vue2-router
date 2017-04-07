@@ -43,5 +43,11 @@ export default [
         redirect: {
             name: 'users'
         }
+    },
+    {
+        path: '*',
+        redirect: {
+            name: 'home'
+        }
     }
 ];
