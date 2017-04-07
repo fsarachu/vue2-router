@@ -18,7 +18,7 @@ export default [
         path: '/user',
         components: {
             'default': User,
-            'header-bottom': Header,
+            'header-top': Header,
         },
         children: [
             {
