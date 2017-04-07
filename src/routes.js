@@ -37,5 +37,11 @@ export default [
                 name: 'userEdit'
             }
         ]
+    },
+    {
+        path: '/redirect-me',
+        redirect: {
+            name: 'user'
+        }
     }
 ];
