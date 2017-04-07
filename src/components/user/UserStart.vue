@@ -4,9 +4,9 @@
             Users
         </p>
         <ul class="menu-list">
-            <li><a>User 1</a></li>
-            <li><a>User 2</a></li>
-            <li><a>User 3</a></li>
+            <li><router-link to="/user/1">User 1</router-link></li>
+            <li><router-link to="/user/2">User 2</router-link></li>
+            <li><router-link to="/user/3">User 3</router-link></li>
         </ul>
     </div>
 </template>
