@@ -41,7 +41,7 @@ export default [
     {
         path: '/redirect-me',
         redirect: {
-            name: 'user'
+            name: 'users'
         }
     }
 ];
