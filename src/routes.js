@@ -7,7 +7,7 @@ export default [
         component: Home
     },
     {
-        path: '/user/:id',
+        path: '/user',
         component: User
     }
 ]
