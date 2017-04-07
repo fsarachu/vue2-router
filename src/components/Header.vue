@@ -6,7 +6,7 @@
                 <div class="nav-item">
                     <button @click="navigateToHome" class="button is-primary">
                         <span class="icon">
-                            <i class="fa fa-random"></i>
+                            <i class="fa fa-diamond"></i>
                         </span>
                     </button>
                 </div>
