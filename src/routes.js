@@ -7,7 +7,8 @@ import UserEdit from './components/user/UserEdit.vue';
 export default [
     {
         path: '',
-        component: Home
+        component: Home,
+        name: 'home',
     },
     {
         path: '/user',
@@ -15,15 +16,18 @@ export default [
         children: [
             {
                 path: '',
-                component: UserStart
+                component: UserStart,
+                name: 'users',
             },
             {
                 path: ':id',
-                component: UserDetail
+                component: UserDetail,
+                name: 'userShow',
             },
             {
                 path: ':id/edit',
-                component: UserEdit
+                component: UserEdit,
+                name: 'userEdit'
             }
         ]
     }

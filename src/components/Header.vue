@@ -10,8 +10,8 @@
                         </span>
                     </button>
                 </div>
-                <router-link to="/" class="nav-item is-tab" activeClass="is-active" exact>Home</router-link>
-                <router-link to="/user" class="nav-item is-tab" activeClass="is-active">User</router-link>
+                <router-link :to="{name: 'home'}" class="nav-item is-tab" activeClass="is-active" exact>Home</router-link>
+                <router-link :to="{name: 'users'}" class="nav-item is-tab" activeClass="is-active">User</router-link>
             </div>
 
         </div>
