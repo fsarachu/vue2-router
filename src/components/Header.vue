@@ -4,7 +4,7 @@
 
             <div class="nav-left">
                 <div class="nav-item">
-                    <button @click="navigateToHome" class="button is-primary">
+                    <button @click="navigateToHome" class="button is-primary is-outlined">
                         <span class="icon">
                             <i class="fa fa-diamond"></i>
                         </span>
