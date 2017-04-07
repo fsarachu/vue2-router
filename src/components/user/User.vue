@@ -6,7 +6,9 @@
                         <p class="title is-4">The User Component</p>
                     </div>
                 </div>
+                <transition name="fade" mode="out-in">
                 <router-view></router-view>
+                </transition>
             </div>
         </section>
 </template>
